@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(255, 255, 255);
+  background-color: rgba(211, 79, 156, 0.795);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-image:    url(Background_Wasted.svg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Wastedbackground {
+  position: relative;
+  display: grid;
+  justify-content: center;
+}

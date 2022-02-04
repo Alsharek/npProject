@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 20;
+  border-bottom: 1px solid #ff00b394;
+  background-color: rgba(124, 81, 111, 0.795);
+  height: 10vh;
+  }
+
+.header__logo {
+  object-fit: contain;
+  height: 50px;
+  margin-top: 40px;
+}
+
+.header__icon {
+  padding: 20px;
+}
+.custom-shape-divider-top-1643921469 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1643921469 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 81px;
+}
+
+.custom-shape-divider-top-1643921469 .shape-fill {
+  fill: #E99321;
+}
